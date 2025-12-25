@@ -16,7 +16,7 @@ public class MyTools {
     /**
      * @return the ZonedDateTime in a fictional town called Aryakton
      */
-    @McpTool(name = "Get LocalTime In Aryakton",
+    @McpTool(name = "get_local_time",
             description = "returns the current local time in a fictional town called 'Aryakton'")
     public LocalDateTime getTimeInAryakton() {
         return LocalDateTime.now(ZoneId.of("Europe/London"));
@@ -25,7 +25,7 @@ public class MyTools {
     /**
      * @return the population in a fictional town called Aryakton
      */
-    @McpTool(name = "Get current population In Aryakton",
+    @McpTool(name = "get_current_population",
             description = "returns the current population of the fictional town called 'Aryakton'")
     public long getCurrentPopulationInAryakton() {
         return counter.get();
