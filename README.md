@@ -22,3 +22,9 @@ Claude config:
   }
 }
 ```
+
+Starting the inspector UI:
+
+```shell
+npx @modelcontextprotocol/inspector
+```
